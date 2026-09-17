@@ -17,7 +17,8 @@ case "$VERSION" in
         CUDA_REPO="ubuntu2404"
         ;;
     26.04)
-        CUDA_REPO="ubuntu2604"    
+        CUDA_REPO="ubuntu2604"
+        ;;    
     *)
         echo "지원하지 않는 Ubuntu 버전입니다. ($VERSION)"
         exit 1
